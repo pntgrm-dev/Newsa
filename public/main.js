@@ -1,8 +1,8 @@
 import "dotenv/config";
 
 const option = {
-    url: process.env.URL,
-    key: process.env.NEWS_API_KEY,
+    url: process.env.API_URL,
+    key: process.env.KEY,
     method: "GET",
     json: true
 }

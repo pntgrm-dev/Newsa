@@ -1,7 +1,6 @@
 import "dotenv/config";
 import express from "express";
-import fetch from "node-fetch";
-import { fetchArticles } from "./main.js";
+import { fetchArticles } from "./public/main.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
